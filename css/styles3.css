@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+  font-family: 'Baloo Tammudu 2';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#imageholder {
+    width: 30vw;
+    height: 80vh;
+    background-color: azure;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(160, 202, 230);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1 {
+    display: flex;
+    margin-top: 15%;
+    margin-right: 60%;
+    position: absolute;
+    font-size: 3rem;
+}
+
+.cards button{
+    /* height: 5vh;
+    width: 10vw; */
+    display: flex;
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 60%;
+    justify-content: center;
+    
+
+}
+
+.cards #imageholder h2 {
+    position: absolute;
+    color: black;
+    margin-left: 70%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    margin-top: 15%;
+    font-size: 1.1rem;
+    
+}
+
+.meaning {
+    width: 20vw;
+    height: 40vw;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 10%;
+
+} 
+ 
+img {
+    width: 70%;
+    height: 90%;
+}
+
